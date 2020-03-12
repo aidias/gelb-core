@@ -1,0 +1,34 @@
+{
+    "name": "aidias/gelb-core",
+    "description": "Quick Laravel Boilerplate Core",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Rafael Casachi",
+            "email": "rcasachi@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Aidias\\GelbCore\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Aidias\\GelCore\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Aidias\\GelbCore\\GelbCoreServiceProvider"
+            ]
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "8.5.x-dev",
+        "orchestra/testbench": "5.0"
+    }
+}
