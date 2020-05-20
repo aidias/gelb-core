@@ -47,9 +47,9 @@
         </form>
 
         <nav class="mt-16 w-4/12 mx-auto flex items-center justify-between">
-            <a href="" title="" class="flex text-gray-600 hover:text-gray-700">Home</a>
-            <a href="" title="" class="flex text-gray-600 hover:text-gray-700">Login</a>
-            <a href="" title="" class="flex text-gray-600 hover:text-gray-700">Terms</a>
+            <a href="/" title="Home" class="flex text-gray-600 hover:text-gray-700">Home</a>
+            <a href="{{ route('login') }}" title="Login" class="flex text-gray-600 hover:text-gray-700">Login</a>
+            <a href="https://github.com/aidias/gelb-core/blob/master/LICENSE.md" title="Terms of use" class="flex text-gray-600 hover:text-gray-700">Terms</a>
         </nav>
     </section>
 @endsection

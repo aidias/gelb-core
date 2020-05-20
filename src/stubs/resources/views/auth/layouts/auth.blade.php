@@ -19,7 +19,7 @@
     <div id="app">
         <main class="container bg-white shadow-lg mx-auto my-12 md:rounded-lg py-10 px-20">
             <nav class="relative flex items-center justify-between">
-                <a href="" title="" class="flex font-bold text-lg text-yellow-500 hover:text-yellow-700 transition duration-500">{{ config('app.name', 'Gelb') }}</a>
+                <a href="/" title="Home" class="flex font-bold text-lg text-yellow-500 hover:text-yellow-700 transition duration-500">{{ config('app.name', 'Gelb') }}</a>
 
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="24" viewBox="0 0 192 230">
                     <defs><clipPath id="b"><rect width="192" height="230"/></clipPath></defs>
@@ -30,7 +30,7 @@
                     </g></g>
                 </svg>
 
-                <a href="" title="" class="flex font-bold text-lg text-gray-500 hover:text-gray-700 transition duration-500">Theme</a>
+                <a href="" title="" class="flex font-bold text-lg text-gray-500 hover:text-gray-700 transition duration-500">Dark Mode</a>
             </nav>
 
             @yield('content')

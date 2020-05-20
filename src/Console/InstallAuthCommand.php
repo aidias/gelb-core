@@ -44,7 +44,7 @@ class InstallAuthCommand extends Command
      */
     public function handle()
     {
-        $this->comment('Installing Authentication Details...');
+        $this->info('We are installing Authentication details...');
         
         $this->call('ui', [
             'type' => 'vue'
@@ -54,6 +54,6 @@ class InstallAuthCommand extends Command
             '--force' => true,
         ]);
 
-        $this->comment('Authentication and UI Installed');
+        $this->comment('Authentication and UI has been installed');
     }
 }
